@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio - Jobbe Dewispelaere</title>
+    <meta name="description" content="Portfolio van Jobbe Dewispelaere, student systeem- en netwerkbeheer aan AP Hogeschool. Portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="max-w-auto mx-auto px-4 py-3 flex flex-wrap items-center justify-between border-b border-gray-200">
+        <div class="flex items-center gap-4">
+            <img src="assets/images/logo.png" alt="logo" class="size-24 rounded-full object-cover">
+            <p class="text-xl font-bold">Jobbe Dewispelaere</p>
+        </div>
+        
+        <input type="checkbox" id="menu-knop" class="peer sr-only">
+        <label for="menu-knop" class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 peer-focus-visible:outline-2 md:hidden">Menu</label>
+        <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+            <ul class="flex flex-col md:flex-row md:gap-2">
+                <li><a href="index.html" aria-current="page" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Home</a></li>
+                <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg bg-blue-200 text-blue-900 font-semibold">Portfolio</a></li>
+                <li><a href="project.html" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Project</a></li>
+                <li><a href="contact.html" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="max-w-auto mx-auto px-4 grid grid-cols-4 gap-8 py-20">
+        <main class="col-span-3">
+            <h1>Portfolio</h1>
+            <p>Ik ben student syteem en netwerkbeheer</p>
+
+        </main>
+
+        <aside class="bg-blue-300 p-4 rounded-lg mb-8">
+            <h2>Links</h2>
+
+        </aside>
+    </div>
+    
+    
+    <footer class="flex items-center justify-between border-t border-gray-200 px-4 py-4 textsm text-gray-600">
+        <p>&copy; 2026 Jobbe Dewispelaere</p>
+    </footer>
+    
+</body>
+</html>
